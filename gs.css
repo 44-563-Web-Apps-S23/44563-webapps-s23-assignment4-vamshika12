@@ -1,0 +1,107 @@
+.speech{
+    font-style: italic;
+    color:black;
+    font-size:20px;
+}
+
+.direction{
+    font-style: Serif;
+    color:black;
+    font-size: 15px;
+    background-color: rgb(170, 65, 27);
+
+}
+
+.direction:hover {
+    background-color: rgb(201, 201, 124);
+    color:rgb(1, 1, 12);
+    font-size: 15px;
+  }
+
+  .Luke{
+    background-color: rgb(165, 73, 130);
+    font-style: Serif;
+  }
+
+  .Revenue{
+    background-color: rgb(51, 121, 104);
+    font-style:Sans-serif ;
+  }
+
+  .table{
+    border: 5px solid;
+    width:30%;
+    padding: 3px;
+    border-spacing: 3px;
+    border-color: darkcyan;
+    margin: 0 20px 20px 0;
+    
+  }
+  .th{
+    
+    height: 50px;
+    text-align: center;
+    border-bottom: 6px solid #670d91;
+   
+    border-top: 2px solid #670d91;
+    border-left: 3px solid #670d91;
+    border-right: 3px solid #670d91;
+
+
+  }
+  .td{
+    border: 2px solid #a22323;;
+    height: 30px;
+    vertical-align: bottom;
+    padding: 15px;
+    border-bottom: 6px solid #a22323; 
+  }
+  tr:nth-child(even) {
+    background-color: aquamarine;
+  }
+  tr:nth-child(odd) {
+    background-color: aqua;
+}
+  .Luke:hover{
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgb(58, 10, 147);
+    text-shadow: 2px 2px rgb(31, 171, 73);
+    font-size: 25px;
+  }
+.Revenue:hover{
+    width: 150px;
+    height: 30px;
+    padding: 15px;
+    background-color: rgb(14, 188, 191);
+    box-shadow: 10px 10px 5px rgb(113, 5, 18);
+    text-shadow: 2px 2px rgb(111, 169, 17);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: palevioletred;
+  }
